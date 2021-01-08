@@ -1,0 +1,215 @@
+{
+  "contractName": "UserInfo",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/hondaao/Desktop/solidity/truffle_box/contracts/UserInfo.sol\":\"UserInfo\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/hondaao/Desktop/solidity/truffle_box/contracts/UserInfo.sol\":{\"keccak256\":\"0x23b11ff69f38e0be535079a1d240d882719492b8a6fe8ad87107b1bfce4e826a\",\"urls\":[\"bzz-raw://41e7e826f7d3fe555dd9c0985ba987a78e515dd11aecf6706b361652e4c0c50d\",\"dweb:/ipfs/QmfCtejDFBG3u22HjQYHAqSFB1KEXXsmz5T212WGn2r9rN\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280600881526020017f75736572696e666f0000000000000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b603e806101156000396000f3fe6080604052600080fdfea265627a7a7231582028567b2a2736f55ea27b81cab37da508c8d128360df473870d3781027a13909a64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582028567b2a2736f55ea27b81cab37da508c8d128360df473870d3781027a13909a64736f6c63430005100032",
+  "sourceMap": "66:49:2:-;;;88:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;66:49;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:49:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "66:49:2:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.21 <0.7.0;\n\ncontract UserInfo {\n  string name = \"userinfo\";\n}\n",
+  "sourcePath": "/Users/hondaao/Desktop/solidity/truffle_box/contracts/UserInfo.sol",
+  "ast": {
+    "absolutePath": "/Users/hondaao/Desktop/solidity/truffle_box/contracts/UserInfo.sol",
+    "exportedSymbols": {
+      "UserInfo": [
+        215
+      ]
+    },
+    "id": 216,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 211,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 215,
+        "linearizedBaseContracts": [
+          215
+        ],
+        "name": "UserInfo",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 214,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 215,
+            "src": "88:24:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 212,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "88:6:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "75736572696e666f",
+              "id": 213,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "102:10:2",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_de6f9e5792cecba557f3a16f03ad14fa6702fa7a7ad93e777cd358b70332f2e8",
+                "typeString": "literal_string \"userinfo\""
+              },
+              "value": "userinfo"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 216,
+        "src": "66:49:2"
+      }
+    ],
+    "src": "32:84:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/hondaao/Desktop/solidity/truffle_box/contracts/UserInfo.sol",
+      "exportedSymbols": {
+        "UserInfo": [
+          215
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".21",
+            "<",
+            "0.7",
+            ".0"
+          ]
+        },
+        "id": 211,
+        "name": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            215
+          ],
+          "name": "UserInfo",
+          "scope": 216
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "name",
+              "scope": 215,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 212,
+                "name": "ElementaryTypeName",
+                "src": "88:6:2"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "75736572696e666f",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"userinfo\"",
+                  "value": "userinfo"
+                },
+                "id": 213,
+                "name": "Literal",
+                "src": "102:10:2"
+              }
+            ],
+            "id": 214,
+            "name": "VariableDeclaration",
+            "src": "88:24:2"
+          }
+        ],
+        "id": 215,
+        "name": "ContractDefinition",
+        "src": "66:49:2"
+      }
+    ],
+    "id": 216,
+    "name": "SourceUnit",
+    "src": "32:84:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xfec3c06040332Ce7361a35620b394255ffFC3827",
+      "transactionHash": "0x1948a2d28c8dca1e31705480fc9464110ad4789f3ab1b87902f1ae86aaea9860"
+    }
+  },
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-08T11:56:44.093Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

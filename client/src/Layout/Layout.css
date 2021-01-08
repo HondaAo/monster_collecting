@@ -1,0 +1,17 @@
+.header{
+    background-color: #1b1f23;
+    padding: 16px;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+}
+.header-left{
+    padding-left: 40px;
+}
+.header-right{
+    padding-right: 40px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
