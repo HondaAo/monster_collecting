@@ -1,5 +1,4 @@
-var UserInfo = artifacts.require("./UserInfo.sol");
-
+const Battle = artifacts.require("./Battle.sol");
 module.exports = function(deployer) {
-  deployer.deploy(UserInfo);
+  deployer.deploy(Battle);
 };

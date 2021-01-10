@@ -1,1 +1,10 @@
-
+.App{
+  display: flex;
+}
+.app-right{
+  width: 30%;
+  padding: 3%;
+}
+.app-left{
+  width: 70%;
+}
